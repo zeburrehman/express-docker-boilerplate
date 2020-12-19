@@ -16,6 +16,8 @@ The second port mapping is for debugging purpose. This can be modified as well i
 
 If you are a visual studio user, then you can even utilize the .vscode directory. I've added a launc.json which will automatically connect your debugger when container is up and you click on debug button in vscode debugger panel. 
 
+Just one thing to remember, .env and .vscode shouldn't be pushed to the repository. I've pushed them just for the sake of simplicity. Environment variable does contains some sensative information. Don't make .env and .vscode part of repository, just keep them private on your machine. 
+
 ## Run
 In order to run this application, [Docker](https://docs.docker.com/engine/install/) should have been installed on the machine along with [docker-compose](https://docs.docker.com/compose/install/).
 
